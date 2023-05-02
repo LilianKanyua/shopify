@@ -81,8 +81,8 @@ margin-top: 2%;
   
   .text_two {
     position: absolute;
-    top: 27%;
-    left: 65%;
+    top: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
     z-index: 1;
     color: white;
@@ -108,7 +108,7 @@ margin-top: 2%;
   .part_two{
     position: absolute;
     bottom: 90%;
-    left: 20%;
+    left: -20%;
     transform: translate(-50%, -50%);
     z-index: 1;
     color: white;
@@ -118,14 +118,16 @@ margin-top: 2%;
       width:600px;
   }
   #heels{
-      width:600px;
-      height: 400px;
+      width:140%;
+      height:100%;
+      margin-left: -40%;
   }
   #many{
       width:600px;
-      height: 400px;
-      margin-left: 100%;
-      margin-top: -95%;
+      height:400px;
+      
+      margin-left: 80%;
+      margin-top: -35%;
   }
   .upper{
       display: grid;
@@ -168,15 +170,104 @@ margin-top: 2%;
       .nav ul{
           display: grid;
           grid-template-columns: 1fr;
+          width:90%;
+          margin-left: 6%;
       }
       .collection{
           grid-template-columns: 1fr;
+          width:100%;
+          font-size: 10px;
       }
       .section_three{
           grid-template-columns: 1fr;
+          width:100%;
+          font-size: 10px;
       }
+      .section_one{
+          width:100%;
+          margin-left: 2%;
+          font-size: 10px;
+      }
+
+      .upper{
+          width:100%;
+          margin-left: 3%;
+      }
+      
       .footer{
           grid-template-columns: 1fr 1fr;
+          width:100%;
+      }
+      #athlete{
+          width:80%;
+          margin-left: 2%;
+      }
+      #heels{
+          width:100%;
+          margin-left: 1%;
+      }
+      .upper{
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          width:100%;
+      }
+      #many{
+          width:90%;
+          margin-left: 3%;
+      }
+      .text_two {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: white;
+        text-align: center;
+      }
+      #view{
+          margin-left: -30%;
+        
+      }
+      .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: white;
+        text-align: center;
+      }
+      .part_two{
+        position: absolute;
+        bottom: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: white;
+        text-align: center;
+      }
+     
+      
+      /* .many{
+          width:60%;
+          margin-left: 2%;
+          margin-top: 2%;
+      } */
+      .upper {
+        position: relative;
+      }
+      
+      .part_one {
+        position: absolute;
+        top:30% ;
+        left:30% ;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        color: white;
+        text-align: center;
+      }
+      #view{
+          margin-left: 20%;
       }
 
   }
