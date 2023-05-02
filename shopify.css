@@ -166,7 +166,7 @@ margin-top: 2%;
       background-color: plum;
       border-radius: 10px;
   }
-  @media (min-width: 300px) and (max-width: 950px){
+  @media (min-width: 200px) and (max-width: 1200px){
       .nav ul{
           display: grid;
           grid-template-columns: 1fr;
