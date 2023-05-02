@@ -164,4 +164,20 @@ margin-top: 2%;
       background-color: plum;
       border-radius: 10px;
   }
+  @media (min-width: 300px) and (max-width: 950px){
+      .nav ul{
+          display: grid;
+          grid-template-columns: 1fr;
+      }
+      .collection{
+          grid-template-columns: 1fr;
+      }
+      .section_three{
+          grid-template-columns: 1fr;
+      }
+      .footer{
+          grid-template-columns: 1fr 1fr;
+      }
+
+  }
   
